@@ -1,38 +1,17 @@
-*{
-    font-family: "roboto";
-}
-html,
-body{
-    height: 100%;
+html,body{
+    height: 100%; /* Para centranlizar o código*/
 }
 body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #282828;
 }
-h1{
+div#text{
     font-size: 144px;
     font-weight: 300;
     border: 3px solid;
-    border-color: purple;
+    border-color: purple;   
     background: linear-gradient(90deg, red,blue);
     -webkit-background-clip:  text;
     color: transparent;
-
-}
-
-h2{
-    font-size: 120px;
-    text-transform: capitalize;
-}
-
-
-@keyframes borda {
-    0%{
-        transform: rotateZ(0deg);
-    }
-    100%{
-        transform: rotateZ(360deg);
-    }
 }

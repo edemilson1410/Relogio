@@ -1,0 +1,17 @@
+html,body{
+    height: 100%; /* Para centranlizar o código*/
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#text{
+    font-size: 144px;
+    font-weight: 300;
+    border: 3px solid;
+    border-color: purple;   
+    background: linear-gradient(90deg, red,blue);
+    -webkit-background-clip:  text;
+    color: transparent;
+}
